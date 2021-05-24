@@ -260,7 +260,7 @@
 			setBigMsg('<span class="flash">Starting Hack...</span><br /><span class="small">Find the constant code blocks</span>');
 			playSound('audiostart',1);
 			$('.flash').fadeOut().fadeIn().fadeOut().fadeIn().fadeOut().fadeIn();
-			setTimeout(function(){fadeBigMsg(false); startGame(3,10);}, 3000);
+			setTimeout(function(){fadeBigMsg(false); startGame(1,10);}, 3000);
 			
 			if ('displayMsg' in item) {
 				setBigMsg('<span class="flash">'+item.displayMsg+'</span>');
